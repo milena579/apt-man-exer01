@@ -33,8 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const cardDescricao = document.createElement("p");
         cardDescricao.textContent = "Descricao: " + produto.descricao;
 
-        const cardStatus = document.createElement("p");
-        cardStatus.textContent = "Status: " + produto.status;
+        const status = document.createElement("div");
+        status.className = "status";
+
+        if(produto.status == false){
+          status.style.backgroundColor = 'red'
+        } else{
+          status.style.backgroundColor = 'green'
+        }
 
 
         card.appendChild(cardHead);
@@ -44,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardPreco);
         cardBody.appendChild(cardDescricao);
-        cardBody.appendChild(cardStatus);
+        cardBody.appendChild(status);
 
         produtosContainer.appendChild(card);
       });

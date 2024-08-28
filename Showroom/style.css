@@ -41,3 +41,9 @@
     align-items: center;
     justify-content: center;
 }
+
+.status{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
