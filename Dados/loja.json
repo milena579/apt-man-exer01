@@ -1,20 +1,29 @@
 [
   {
     "id": 1,
+    "nome": "Perfume Egeo Choc",
+    "quantidade": 5,
     "descricao": "Produto 1",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
-    "preco": 10.0
+    "imagem": "https://m.media-amazon.com/images/I/51gxpbB3mrL._AC_UF1000,1000_QL80_.jpg",
+    "preco": 110.0,
+    "status": true
   },
   {
     "id": 2,
+    "nome": "Perfume Coffee Woman",
+    "quantidade": 0,
     "descricao": "Produto 2",
-    "imagem": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
-    "preco": 20.0
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/B48139/Coffee_Woman_Seduction_Desodorante_Colonia_1.jpg",
+    "preco": 140.0,
+    "status": false
   },
   {
     "id": 3,
+    "nome": "Perfume Floratta Red",
+    "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
-    "preco": 30.0
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
   }
 ]
