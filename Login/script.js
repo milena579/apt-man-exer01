@@ -1,3 +1,7 @@
+const modal = document.getElementsByClassName("modal")
+
+modal.style.display = 'none'
+
 function login() {
   var nome = $("#nome").val();
   var senha = $("#senha").val();
@@ -13,6 +17,7 @@ function login() {
 
     window.location.href = "../Loja/loja.html";
   } else {
+    modal.style.display = 'block'
     //logica para se o nome e senha forem incorretos
   }
 }
