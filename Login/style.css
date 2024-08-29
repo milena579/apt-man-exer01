@@ -46,4 +46,15 @@ input {
   background-color: rgb(243, 110, 110);
   border-radius: 15px;
   padding: 15px;
+  display: flex;
+  margin: 10px;
+  gap: 20px;
 }
+
+#fechar{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+

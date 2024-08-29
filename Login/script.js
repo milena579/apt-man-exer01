@@ -20,3 +20,7 @@ function login() {
     //logica para se o nome e senha forem incorretos
   }
 }
+
+function fecharModal(){
+  modal.style.display = 'none'
+}
