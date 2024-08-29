@@ -4,7 +4,7 @@
     "nome": "Perfume Egeo Choc",
     "quantidade": 5,
     "descricao": "Produto 1",
-    "imagem": "https://m.media-amazon.com/images/I/51gxpbB3mrL._AC_UF1000,1000_QL80_.jpg",
+    "imagem": "/imgs/egeo choc.jpg",
     "preco": 110.0,
     "status": true
   },
@@ -13,7 +13,7 @@
     "nome": "Perfume Coffee Woman",
     "quantidade": 0,
     "descricao": "Produto 2",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/B48139/Coffee_Woman_Seduction_Desodorante_Colonia_1.jpg",
+    "imagem": "/imgs/coffee.webp",
     "preco": 140.0,
     "status": false
   },
@@ -22,7 +22,7 @@
     "nome": "Perfume Floratta Red",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "imagem": "/imgs/red.jpg",
     "preco": 150.0,
     "status": true
   },
@@ -31,7 +31,7 @@
     "nome": "Perfume Egeo Red",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+     "imagem":"/imgs/egeo red.jpg",
     "preco": 150.0,
     "status": true
   },
@@ -40,7 +40,7 @@
     "nome": "Perfume Glamuor",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "imagem": "/imgs/glamour.jpg",
     "preco": 150.0,
     "status": true
   },
@@ -49,25 +49,25 @@
     "nome": "Perfume Lily",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "imagem": "/imgs/lily.webp",
     "preco": 150.0,
     "status": true
   },
   {
     "id": 7,
-    "nome": "Perfume Elyse",
+    "nome": "Perfume Elysee",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "imagem": "/imgs/elysee.webp",
     "preco": 150.0,
     "status": true
   },
   {
     "id": 8,
-    "nome": "Perfume Taty",
+    "nome": "Perfume Thaty",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "imagem": "/imgs/taty.jpg",
     "preco": 150.0,
     "status": true
   },
@@ -76,7 +76,7 @@
     "nome": "Perfume Egeo Baunilha",
     "quantidade": 15,
     "descricao": "Produto 3",
-    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "imagem":"/imgs/egeo baunilha.webp",
     "preco": 150.0,
     "status": true
   }
