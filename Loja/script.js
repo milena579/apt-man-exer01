@@ -50,6 +50,13 @@ document.addEventListener("DOMContentLoaded", function () {
           status.style.backgroundColor = 'green'
         }
 
+        
+        const btnAdicionarAoCarrinho = document.createElement("a");
+        btnAdicionarAoCarrinho.href = "#";
+        btnAdicionarAoCarrinho.className =
+          "btn btn-primary btn-adicionar-ao-carrinho";
+        btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
+        btnAdicionarAoCarrinho.setAttribute("data-indice", index);
 
         card.appendChild(cardHead);
         card.appendChild(cardBody);
@@ -59,6 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
         cardBody.appendChild(cardPreco);
         cardBody.appendChild(cardDescricao);
         cardBody.appendChild(status);
+        cardBody.appendChild(btnAdicionarAoCarrinho);
+
 
         produtosContainer.appendChild(card);
       });
@@ -74,6 +83,9 @@ document.addEventListener("DOMContentLoaded", function () {
       let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
       carrinho.push(produtoSelecionado);
       localStorage.setItem("carrinho", JSON.stringify(carrinho));
+
+      alert('Produto adicionado ao carrinho');
+
     }
   );
 });
