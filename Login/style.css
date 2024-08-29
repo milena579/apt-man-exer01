@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2vh;
-  width: 50%;
+  width: 350px;
   height: auto;
   margin-bottom: 4vh;
   border: solid 1px black;
@@ -43,6 +43,15 @@ input, #senha{
   padding: 5px;
   width: 100%;
   border: 2px solid #909090;
+}
+
+.senhaInput{
+  position: relative;
+  width: 100%;
+}
+
+.senhaInput input{
+  width: 100%;
 }
 
 #modal{
