@@ -11,18 +11,22 @@
     <div class="container">
       <h1>Login</h1>
         <input type="text" placeholder="Insira seu nome" id="nome" />
-        <div >
+        <div style="position: relative;">
           <input type="password" placeholder="Insira sua senha" id="senha" >
+          <a type="button" id="verSenha" onclick="verSenha()">🔑</a>
         </div>
         <button onclick="login()">Entrar</button>
       </div>
+
       <p><a href="../Showroom/showroom.html">Visitar showroom</a></p>
+      
       <div class="modal" id="modal">
         <a id="fechar" onclick="fecharModal()">X</a>
         <h5>
           Credenciais incorretas
         </h5>
       </div>
+
     </div>
     <script src="script.js"></script>
   </body>

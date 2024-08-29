@@ -24,3 +24,14 @@ function login() {
 function fecharModal(){
   modal.style.display = 'none'
 }
+
+let senha = document.getElementById("senha");
+
+function verSenha(){
+  if(senha.type == 'password'){
+    senha.type = 'text';
+  } 
+  else{
+    senha.type = 'password';
+  }
+}
