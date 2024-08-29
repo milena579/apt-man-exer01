@@ -4,59 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Showroom/style.css">
+    <link rel="stylesheet" href="/Loja/style.css">
     <title>Loja</title>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      body {
-        width: 100vw;
-        height: auto;
-        overflow-x: hidden;
-        padding: 20px;
-      }
-      .wrap {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        padding: 5%;
-      }
-      .idPerfil {
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-      }
-      @media (width <= 900px) {
-        .center {
-          justify-content: center;
-          gap: 2vh;
-        }
-      }
-    </style>
+
   </head>
   <body>
-    <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
-    <div>
-      <h5 id="perfil"></h5>
-      <div class="idPerfil">
-        Protocolo atual:
-        <p id="idPerfil"></p>
+    <header>
+      <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
+      <h1>Loja</h1>
+      <div class="protocolo">
+        <h4 id="perfil"></h4>
+        <div class="idPerfil">
+          Protocolo atual:
+          <p id="idPerfil"></p>
+        </div>
       </div>
+    </header>
+    <div class="bemVindoLoja">
+      <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
     </div>
-    <h1>Loja</h1>
-    <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
-    <br />
-    <h2>Produtos</h2>
-    <br />
-    <div class="wrap">
-      <div id="produtos-container" class="row center"></div>
+    <div class="produtos">
+      <h2>Produtos</h2>
+      <div class="wrap">
+        <div id="produtos-container" class="row center"></div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
