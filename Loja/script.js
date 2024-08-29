@@ -14,43 +14,51 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       produtos = data;
-      const produtosContainer =
-        document.getElementsByTagName("produtos-container");
+      const produtosContainer = document.getElementById("produtos-container");
 
       produtos.map((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
-        card.style.width = "18rem";
-        card.style.marginRight = "10px";
-
-        const imagem = document.createElement("img");
-        imagem.src = produto.imagem;
-        imagem.className = "card-img-top";
+        
+        const cardHead = document.createElement("div");
+        cardHead.className = "card-head";
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
 
-        const cardTitle = document.createElement("h5");
+
+        const imagem = document.createElement("img");
+        imagem.src = produto.imagem;
+
+
+        const cardTitle = document.createElement("h3");
         cardTitle.className = "card-title";
-        cardTitle.textContent = produto.descricao;
+        cardTitle.textContent = produto.nome;
 
-        const cardText = document.createElement("p");
-        cardText.className = "card-text";
-        cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
+        const cardPreco = document.createElement("p");
+        cardPreco.textContent = "Preço: $" + produto.preco.toFixed(2);
 
-        const btnAdicionarAoCarrinho = document.createElement("a");
-        btnAdicionarAoCarrinho.href = "#";
-        btnAdicionarAoCarrinho.className =
-          "btn btn-primary btn-adicionar-ao-carrinho";
-        btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
-        btnAdicionarAoCarrinho.setAttribute("data-indice", index);
+        const cardDescricao = document.createElement("p");
+        cardDescricao.textContent = "Descricao: " + produto.descricao;
 
-        cardBody.appendChild(cardTitle);
-        cardBody.appendChild(cardText);
-        cardBody.appendChild(btnAdicionarAoCarrinho);
+        const status = document.createElement("div");
+        status.className = "status";
 
-        card.appendChild(imagem);
+        if(produto.status == false){
+          status.style.backgroundColor = 'red'
+        } else{
+          status.style.backgroundColor = 'green'
+        }
+
+
+        card.appendChild(cardHead);
         card.appendChild(cardBody);
+
+        cardHead.appendChild(imagem);
+        cardBody.appendChild(cardTitle);
+        cardBody.appendChild(cardPreco);
+        cardBody.appendChild(cardDescricao);
+        cardBody.appendChild(status);
 
         produtosContainer.appendChild(card);
       });
