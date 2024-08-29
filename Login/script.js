@@ -1,6 +1,5 @@
-const modal = document.getElementsByClassName("modal")
-
-modal.style.display = 'none'
+const modal = document.getElementById("modal");
+modal.style.display = 'none';
 
 function login() {
   var nome = $("#nome").val();
