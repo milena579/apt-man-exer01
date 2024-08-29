@@ -92,4 +92,10 @@ function gerarDocumentoWord() {
   link.download = "carrinho.doc";
   link.click();
   document.getElementById("pedido").style.display = "block";
+
+  
+}
+
+function fecharModal(){
+  document.getElementById("pedido").style.display = "none";
 }

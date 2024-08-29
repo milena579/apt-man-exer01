@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrinho</title>
+    <link rel="stylesheet" href="/Carrinho/style.css">
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.0.1/mammoth.browser.min.js"></script>
     <style>
@@ -26,7 +27,10 @@
     <div id="lista"></div>
     <h3 id="total"></h3>
     <button onclick="gerarDocumentoWord()">Realizar pedido</button>
-    <p id="pedido">Pedido gerado com sucesso</p>
+    <div id="pedido">
+      <a id="fechar" onclick="fecharModal()">X</a>
+      <p>Pedido gerado com sucesso</p>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
