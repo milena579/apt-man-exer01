@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       produtos = data;
       const produtosContainer = document.getElementById("produtos-container");
 
-      produtos.map((produto, index) => {
+      produtos.forEach((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
         
