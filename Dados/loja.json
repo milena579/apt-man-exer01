@@ -25,5 +25,59 @@
     "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
     "preco": 150.0,
     "status": true
+  },
+  {
+    "id": 4,
+    "nome": "Perfume Egeo Red",
+    "quantidade": 15,
+    "descricao": "Produto 3",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
+  },
+  {
+    "id": 5,
+    "nome": "Perfume Glamuor",
+    "quantidade": 15,
+    "descricao": "Produto 3",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
+  },
+  {
+    "id": 6,
+    "nome": "Perfume Lily",
+    "quantidade": 15,
+    "descricao": "Produto 3",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
+  },
+  {
+    "id": 7,
+    "nome": "Perfume Elyse",
+    "quantidade": 15,
+    "descricao": "Produto 3",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
+  },
+  {
+    "id": 8,
+    "nome": "Perfume Taty",
+    "quantidade": 15,
+    "descricao": "Produto 3",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
+  },
+  {
+    "id": 9,
+    "nome": "Perfume Egeo Baunilha",
+    "quantidade": 15,
+    "descricao": "Produto 3",
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_1800,c_limit/e_trim/v1/imagens/products/BK20211217/floratta_red_75792_segredinhos.jpg",
+    "preco": 150.0,
+    "status": true
   }
 ]
