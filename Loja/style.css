@@ -53,7 +53,6 @@ a:hover{
     }
 }
 
-
 .produtos{
     display: flex;
     align-items: center;
@@ -61,7 +60,6 @@ a:hover{
     flex-direction: column;
     padding: 20px;
 }
-
 
 .produtos h2{
     padding: 15px;
