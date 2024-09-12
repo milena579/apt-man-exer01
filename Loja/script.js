@@ -44,6 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const status = document.createElement("div");
         status.className = "status";
 
+        const quanti = document.createElement("p");
+        quanti.textContent = "Quantidade: " + produto.quantidade;
+
         if(produto.status == false){
           status.style.backgroundColor = 'red'
         } else{
@@ -65,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardPreco);
         cardBody.appendChild(cardDescricao);
+        cardBody.appendChild(quanti);
         cardBody.appendChild(status);
         cardBody.appendChild(btnAdicionarAoCarrinho);
 
